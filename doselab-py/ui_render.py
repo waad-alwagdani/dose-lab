@@ -82,8 +82,12 @@ ul[role="listbox"] li:hover,ul[role="listbox"] li[aria-selected="true"]{{backgro
 [data-testid="stExpander"] summary,[data-testid="stExpander"] summary *{{color:var(--ink)!important;background:#fff!important}}
 [data-testid="stExpander"] details{{background:#fff!important}}
 .stButton>button,.stDownloadButton>button{{color:var(--ink2)!important}}
-.stButton>button[kind="primary"],.stFormSubmitButton>button{{background:var(--violet)!important;color:#fff!important}}
+.stButton>button[kind="primary"],.stDownloadButton>button[kind="primary"],.stFormSubmitButton>button{{background:var(--violet)!important;color:#fff!important}}
 div[data-testid="stVerticalBlockBorderWrapper"]{{background:#fff!important;border-color:var(--hair)!important}}
+[data-testid="stTextInput"] div[data-baseweb="input"],[data-testid="stTextInput"] div[data-baseweb="base-input"],[data-testid="stTextInputRootElement"]{{background:#fff!important;border:1px solid var(--hair2)!important;border-radius:9px!important;box-shadow:none!important}}
+[data-testid="stTextInput"] input{{background:#fff!important;color:var(--ink)!important;-webkit-text-fill-color:var(--ink)!important}}
+[data-testid="stTextInputRootElement"]:focus-within{{border-color:var(--violet)!important;box-shadow:0 0 0 4px var(--violet-soft)!important}}
+[data-testid="stNumberInputContainer"],[data-testid="stNumberInput"] div[data-baseweb="input"]{{border:1px solid var(--hair2)!important;border-radius:9px!important}}
 .react-aria-ComboBox>div{{background:#fff!important;border:1px solid var(--hair2)!important;border-radius:9px!important}}
 .react-aria-ComboBox input{{background:#fff!important;color:var(--ink)!important;-webkit-text-fill-color:var(--ink)!important}}
 .react-aria-ComboBox button,.react-aria-ComboBox button svg{{color:var(--ink2)!important;fill:var(--ink2)!important;background:transparent!important}}
