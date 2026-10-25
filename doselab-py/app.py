@@ -122,7 +122,7 @@ with right:
         else:
             page = readout_html(r)
             if hasattr(st, "iframe"):          # Streamlit ≥ 1.50
-                st.iframe(page, height=readout_height(r))
+                st.iframe(page, height="content")
             else:                              # older Streamlit
                 import streamlit.components.v1 as components
                 components.html(page, height=readout_height(r), scrolling=False)
