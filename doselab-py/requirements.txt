@@ -1,0 +1,3 @@
+# Dose Lab by WaadAlwagdani — © 2026 Waad Alwagdani. All rights reserved.
+streamlit==1.66.1
+reportlab==4.2.5
