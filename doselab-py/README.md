@@ -1,4 +1,5 @@
 # Dose Lab by WaadAlwagdani
+   ![Tests](https://github.com/waad-alwagdani/dose-lab/actions/workflows/tests.yml/badge.svg)
 
 **Oral Suspension Dispensing Calculator (Python)** — designed, clinically specified and built by **Waad Alwagdani, PharmD** (وعد الوقداني).
 
