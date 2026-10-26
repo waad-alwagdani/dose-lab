@@ -6,6 +6,9 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: doselab-py
     strategy:
       matrix:
         python-version: ["3.10", "3.12"]
